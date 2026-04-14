@@ -33,10 +33,10 @@ public class Main {
         return width * height;
     }
 
-    public static double area(double radius) {
-        if (radius < 0) {
+    public static double area(double rad) {
+        if (rad < 0) {
             return -1;
         }
-        return radius * radius * Math.PI;
+        return rad * rad * Math.PI;
     }
 }
